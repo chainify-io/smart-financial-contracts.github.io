@@ -1,3 +1,5 @@
+# Smart Financial Contracts
+
 ---
 layout: default
 ---
