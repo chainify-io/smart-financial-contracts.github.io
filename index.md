@@ -1,18 +1,15 @@
-<table border="0">
-  <tr>
-    <td width="25%">
-      <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/ws_logo.png" width="20%" height="20%">
-    </td>
-    <td>
-      <h1> Prototype Daily Future Knock-Out </h1>
-    </td>
-  </tr>
-</table>
+<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/ws_logo.png" width="20%" height="20%">
 
-# 
+# Prototype: Daily Future Knock-Out
 ---
 layout: default
 ---
+
+| Schritt        | Screnshit          |
+|:-------------|:------------------|
+| ok   skdjfnklsdhf l hjkdgjk dshjkg dshfghsdfjkg hdkhg ösdhgöjsdf gödfh köjhdföj khxdöfjbxökdhböjkxdhbköjxdhbökjxdöbxöjd hböxdfhöxdhg öxdghöxdfhg        | <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/test.jpg" width="12%" height="12%"> |
+
+
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
