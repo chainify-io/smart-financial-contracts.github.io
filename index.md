@@ -100,7 +100,7 @@ end
 
 ### Large image
 
-![](https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/test.jpg)
+![](https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/test.jpg=200x200)
 
 
 
