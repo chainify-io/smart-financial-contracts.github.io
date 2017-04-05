@@ -102,6 +102,8 @@ end
 
 ![](https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/test.jpg =200x200)
 
+<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/test.jpg">
+
 
 
 ### Definition lists can be used with HTML syntax.
