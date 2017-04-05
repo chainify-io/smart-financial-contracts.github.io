@@ -5,6 +5,17 @@
 Diese Anleitung beschreibt, wie in den Smart Financial Contract „Dax Daily Knock-Out Future“ investiert werden kann.
 Das Ziel dieses Smart Financial Contracts ist es, zu zeigen, dass Finanz-Terminkontrakte in der Blockchain „Ethereum“ abgebildet werden können. In diesem Sinn wird dieser Prototyp Interessierten als TEST zur Verfügung gestellt. Die Benutzung der Software geschieht auf eigene Gefahr; jede Haftung für Schäden oder Verluste ist ausgeschlossen. Insbesondere die allgemeinen Risiken bei der Nutzung von Ethereum gelten auch hier, siehe <a href="https://www.ethereum.org/agreement" target="_blank">https://www.ethereum.org/agreement</a>.
 
+## Eigenschaften des „Dax Daily Knock-Out Future“
+
+-	Der Trader setzt auf die Dax-Entwicklung des Folgetages. Man kann „LONG“ oder „SHORT“ gehen. Schließt der Dax am Folgetag über dem Schlusskurs des vorigen Tages, dann ist de „Dax Daily Knock-Out Future“ LONG, ansonsten short.
+-	Beispiel:
+  - Es ist Montag, 18:00 Uhr. Der Dax schloss um 17:45 Uhr mit 11.800,12 Punkten.
+  - Meine Prognose für Dienstag (der Folgetage) ist, dass der Dax höher schließt.
+  - Also gehe ich „LONG“.
+  - Am Dienstag schließt der Dax bei 11.900,45 Punkten, also höher als am Montag. LONG war somit die richtige Prognose.  - Die Auszahlung meines Gewinns (inkl. Invest natürlich) ist ab dem Folgetag (Mittwoch) möglich.
+  - Der Prototyp „Dax Daily Knock-Out Future“ ist ein recht einfaches Knock-Out Produkt. Trifft die Prognose ein, also Dax schließt höher oder tiefer, erhält man einen Gewinn. Trifft die eigene Prognose nicht ein, verliert man den investierten Ether-Betrag. Die Summe aller Verlust-Trades wird auf die Gewinner-Trades aufgeteilt. Der potentielle Gewinn ist somit abhängig von der Long/Short-Quota.
+
+
 
 | Schritt        | Screnshit          |
 |:-------------|:------------------|
