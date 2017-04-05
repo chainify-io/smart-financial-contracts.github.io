@@ -98,7 +98,7 @@ end
 
 ### Large image
 
-![](https://github.com/smart-financial-contracts/smart-financial-contracts.github.io/blob/master/test.jpg)
+![](https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/test.jpg)
 
 
 
