@@ -1,5 +1,14 @@
-# Smart Financial Contracts <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/ws_logo.png" width="100%" height="100%">
+<table border="0">
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/ws_logo.png" width="20%" height="20%">
+</td>
+<td>
+<h1> Prototype Daily Future Knock-Out </h1>
+</tr>
+</table>
 
+# 
 ---
 layout: default
 ---
