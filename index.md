@@ -1,4 +1,4 @@
-# Smart Financial Contracts
+# Smart Financial Contracts <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/ws_logo.png" width="100%" height="100%">
 
 ---
 layout: default
