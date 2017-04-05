@@ -16,6 +16,20 @@ Das Ziel dieses Smart Financial Contracts ist es, zu zeigen, dass Finanz-Termink
     - Test
 - Der Prototyp „Dax Daily Knock-Out Future“ ist ein recht einfaches Knock-Out Produkt. Trifft die Prognose ein, also Dax schließt höher oder tiefer, erhält man einen Gewinn. Trifft die eigene Prognose nicht ein, verliert man den investierten Ether-Betrag. Die Summe aller Verlust-Trades wird auf die Gewinner-Trades aufgeteilt. Der potentielle Gewinn ist somit abhängig von der Long/Short-Quota.
 
+## Anleitung
+---
+Wer sich bereits mit Ethereum auskennt und eine Wallet mit ein paar Ether besetzt, kann direkt ins [Kapitel B](#kapB). springen.
+Als kurze Einführung in Ethereum dient auch dieses Video: 
+<a href="https://youtu.be/j23HnORQXvs" target="_blank">https://youtu.be/j23HnORQXvs</a>
+
+Eine Einführung in Ethereum mit vielen Links ist hier zu finden: 
+<a href="http://bit.ly/2mURyWZ" target="_blank">http://bit.ly/2mURyWZ</a>
+
+### Kapitel A: Einstieg in die Ethereum Blockchain
+---
+
+### [](#kapB)Kapitel B: Erste Schritte mit dem „Dax Daily Knock-Out Future“
+---
 
 
 | Schritt        | Screnshit          |
