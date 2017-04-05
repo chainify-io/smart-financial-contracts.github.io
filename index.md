@@ -98,7 +98,8 @@ end
 
 ### Large image
 
-![](https://guides.github.com/activities/hello-world/branching.png)
+![](https://github.com/smart-financial-contracts/smart-financial-contracts.github.io/blob/master/test.jpg)
+
 
 
 ### Definition lists can be used with HTML syntax.
