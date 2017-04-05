@@ -9,10 +9,10 @@ Das Ziel dieses Smart Financial Contracts ist es, zu zeigen, dass Finanz-Termink
 
 -	Der Trader setzt auf die Dax-Entwicklung des Folgetages. Man kann „LONG“ oder „SHORT“ gehen. Schließt der Dax am Folgetag über dem Schlusskurs des vorigen Tages, dann ist de „Dax Daily Knock-Out Future“ LONG, ansonsten short.
 -	Beispiel:
-  - Es ist Montag, 18:00 Uhr. Der Dax schloss um 17:45 Uhr mit 11.800,12 Punkten.
-  - Meine Prognose für Dienstag (der Folgetage) ist, dass der Dax höher schließt.
-  - Also gehe ich „LONG“.
-  - Am Dienstag schließt der Dax bei 11.900,45 Punkten, also höher als am Montag. LONG war somit die richtige Prognose.  - Die Auszahlung meines Gewinns (inkl. Invest natürlich) ist ab dem Folgetag (Mittwoch) möglich.
+    - Es ist Montag, 18:00 Uhr. Der Dax schloss um 17:45 Uhr mit 11.800,12 Punkten
+    - Meine Prognose für Dienstag (der Folgetage) ist, dass der Dax höher schließt
+    - Also gehe ich „LONG“
+    - Am Dienstag schließt der Dax bei 11.900,45 Punkten, also höher als am Montag. LONG war somit die richtige Prognose.  - Die Auszahlung meines Gewinns (inkl. Invest natürlich) ist ab dem Folgetag (Mittwoch) möglich
     - Test
 - Der Prototyp „Dax Daily Knock-Out Future“ ist ein recht einfaches Knock-Out Produkt. Trifft die Prognose ein, also Dax schließt höher oder tiefer, erhält man einen Gewinn. Trifft die eigene Prognose nicht ein, verliert man den investierten Ether-Betrag. Die Summe aller Verlust-Trades wird auf die Gewinner-Trades aufgeteilt. Der potentielle Gewinn ist somit abhängig von der Long/Short-Quota.
 
