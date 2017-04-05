@@ -28,7 +28,7 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 ### Kapitel A: Einstieg in die Ethereum Blockchain
 
 
-### [](#kapB) Kapitel B: Erste Schritte mit dem „Dax Daily Knock-Out Future“
+### [](#kapB)Kapitel B: Erste Schritte mit dem „Dax Daily Knock-Out Future“
 
 
 | Schritt        | Screnshit          |
