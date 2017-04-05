@@ -1,6 +1,6 @@
 <table border="0">
   <tr>
-    <td>
+    <td width="25%">
       <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/ws_logo.png" width="20%" height="20%">
     </td>
     <td>
