@@ -18,7 +18,7 @@ Das Ziel dieses Smart Financial Contracts ist es, zu zeigen, dass Finanz-Termink
 
 ## Anleitung
 ---
-Wer sich bereits mit Ethereum auskennt und eine Wallet mit ein paar Ether besetzt, kann direkt ins [Kapitel B](#kapB). springen.
+Wer sich bereits mit Ethereum auskennt und eine Wallet mit ein paar Ether besetzt, kann direkt ins [Kapitel B](#kapb). springen.
 Als kurze Einführung in Ethereum dient auch dieses Video: 
 <a href="https://youtu.be/j23HnORQXvs" target="_blank">https://youtu.be/j23HnORQXvs</a>
 
@@ -29,7 +29,7 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 
 |Schritt 1: Ethereum Browser herunterladen. Zur Verwendung des Prototypen sollte der Ethereum-Browser "Parity" verwendet werden.|
 
-| Schritt        | Screenshot (Klick für Vergrößern)          |
+| Schritt        | Screenshot|
 |:-------------|:------------------|
 |Gehe zu <a href="https://parity.io/parity.html" target="_blank">https://parity.io/parity.html</a> und klicke auf "Get Parity"|  <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/getParity.png" width="50%" height="50%">|
 |Parity installieren (InstallParity.exe ausführen)| 
@@ -46,7 +46,7 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 
 Etwas nach unten scrollen, dann bei „Windows“ auf „Download“ klicken
 
-### <a name="kapB"></a>Kapitel B: Erste Schritte mit dem „Dax Daily Knock-Out Future“
+### (#anchors-in-markdown)Kapitel B: Erste Schritte mit dem „Dax Daily Knock-Out Future“
 
 
 | Schritt        | Screnshit          |
