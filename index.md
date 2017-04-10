@@ -2,6 +2,12 @@
 
 # Prototype: Daily Future Knock-Out
 ---
+Inhaltsübersicht:
+[Eigenschaften des „Dax Daily Knock-Out Future“](#eigenschaften-des-dax-daily-knock-out-future)
+[Anleitung](#anleitung)
+
+
+
 Diese Anleitung beschreibt, wie in den Smart Financial Contract „Dax Daily Knock-Out Future“ investiert werden kann.
 Das Ziel dieses Smart Financial Contracts ist es, zu zeigen, dass Finanz-Terminkontrakte in der Blockchain „Ethereum“ abgebildet werden können. In diesem Sinn wird dieser Prototyp Interessierten als TEST zur Verfügung gestellt. Die Benutzung der Software geschieht auf eigene Gefahr; jede Haftung für Schäden oder Verluste ist ausgeschlossen. Insbesondere die allgemeinen Risiken bei der Nutzung von Ethereum gelten auch hier, siehe <a href="https://www.ethereum.org/agreement" target="_blank">https://www.ethereum.org/agreement</a>.
 
@@ -25,7 +31,7 @@ Als kurze Einführung in Ethereum dient auch dieses Video:
 Eine Einführung in Ethereum mit vielen Links ist hier zu finden: 
 <a href="http://bit.ly/2mURyWZ" target="_blank">http://bit.ly/2mURyWZ</a>
 
-### Kapitel A: Einstieg in die Ethereum Blockchain mit dem Ethereum-Browser "Parity"
+## Kapitel A: Einstieg in die Ethereum Blockchain mit dem Ethereum-Browser "Parity"
 
 |Schritt 1: Ethereum Browser herunterladen. Zur Verwendung des Prototypen sollte der Ethereum-Browser "Parity" verwendet werden.|
 
@@ -44,13 +50,12 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 
 
 
-Etwas nach unten scrollen, dann bei „Windows“ auf „Download“ klicken
 
-### <a name="kapb"></a>Kapitel B: Erste Schritte mit dem Dax Daily Knock-Out Future
+## <a name="kapb"></a>Kapitel B: Erste Schritte mit dem Dax Daily Knock-Out Future
 
 **Die nachfolgenden Schritte bite erst ausführen, wenn Parity vollständig synchron mit der Ethereum-Blockchain ist (siehe oben.**
 
-#### Schritt 1: Den Smart Financial Contract in die eigene Wallet einfügen
+### Schritt 1: Den Smart Financial Contract in die eigene Wallet einfügen
 
 | Schritt        | Screenshot|
 |:-------------|:------------------|
