@@ -27,10 +27,10 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 
 ### Kapitel A: Einstieg in die Ethereum Blockchain
 
-
-| Schritt        | Screnshit          |
-|:-------------|:------------------|
 |Schritt 1: Ethereum Browser herunterladen. Zur Verwendung des Prototypen sollte der Ethereum-Browser "Parity" verwendet werden.|
+
+| Schritt        | Screenshot          |
+|:-------------|:------------------|
 |Gehe zu <a href="https://parity.io/parity.html" target="_blank">https://parity.io/parity.html</a> und klicke auf "Get Parity"|  <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/getParity.png" width="50%" height="50%">|
 
 
