@@ -25,7 +25,7 @@ Als kurze Einführung in Ethereum dient auch dieses Video:
 Eine Einführung in Ethereum mit vielen Links ist hier zu finden: 
 <a href="http://bit.ly/2mURyWZ" target="_blank">http://bit.ly/2mURyWZ</a>
 
-### Kapitel A: Einstieg in die Ethereum Blockchain
+### Kapitel A: Einstieg in die Ethereum Blockchain mit dem Ethereum-Browser "Parity"
 
 |Schritt 1: Ethereum Browser herunterladen. Zur Verwendung des Prototypen sollte der Ethereum-Browser "Parity" verwendet werden.|
 
@@ -46,7 +46,7 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 
 Etwas nach unten scrollen, dann bei „Windows“ auf „Download“ klicken
 
-### [](#kapB)Kapitel B: Erste Schritte mit dem „Dax Daily Knock-Out Future“
+### <a name="kapB"></a>Kapitel B: Erste Schritte mit dem „Dax Daily Knock-Out Future“
 
 
 | Schritt        | Screnshit          |
