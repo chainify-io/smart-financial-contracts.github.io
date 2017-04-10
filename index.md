@@ -56,7 +56,7 @@ Etwas nach unten scrollen, dann bei „Windows“ auf „Download“ klicken
 |Als nächstes holen wir uns den Smart Financial Contract "Dax Daily Knock-Out Future" in unser Profil. Im Hauptmenü ganz oben erscheint nun der Menüpunkt "Contracts". Bitte darauf klicken, anschließen auf "+ WATCH" klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/contractswatch.png" width="100%" height="100%">|
 |Im nächsten Fenster "Custom Contract" auswählen und "Next" klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/customcontract.png" width="100%" height="100%">|
 |Das nächste Fenster hat viele Eingabefelder. Wir gehen jedes einzelne durch.||
-|**network address**: hier muss die Adresse des Smart Financial Contracts per copy&paste eingegeben werden. Die Adresse lautet: '''0x78D8AeAE03C12164189272Abd3934c98c87Ff6A4'''|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/networkaddress.png" width="100%" height="100%">
+|**network address**: hier muss die Adresse des Smart Financial Contracts per copy&paste eingegeben werden. Die Adresse lautet: ```0x78D8AeAE03C12164189272Abd3934c98c87Ff6A4```|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/networkaddress.png" width="100%" height="100%">
 
 
 | Schritt        | Screnshit          |
