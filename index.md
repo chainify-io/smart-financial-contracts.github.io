@@ -79,10 +79,19 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 
 
 
-#### Schritt 2: Trades duchführen
+### Schritt 2: Trades duchführen
 
-
-
+| Schritt        | Screenshot|
+|:-------------|:------------------|
+|Erstelle deine Prognose (Dax schließt morgen höher oder tiefer)||
+|Gehe in Parity auf „Contracts“ und klicke auf den Smart Financial Contract, den du gerade angelegt hast.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/contracts.png" width="100%" height="100%">|
+|Klicke auf „Execute“|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/contractsexecute.png" width="100%" height="100%">|
+|Wähle im Feld "function to execute" die Funktion „GoLong“ (wenn du einen steigenden Dax erwartest“) oder „GoShort“ (wenn du einen fallenden Dax erwartest).|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/functiontoexecute.png" width="100%" height="100%">|
+|Wähle den Betrag, den du investieren möchtest und gibt ihn im Feld "transaction value" ein. **Mindestens 0,1 Ether, Maximal 2 Ether**|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/transactionavalue.png" width="100%" height="100%">|
+|**Wichtig: Zahlen werden in Parity in amerikanischem Format eingegeben. Das heißt: Punkt statt Komma!** ||
+|Klicken Sie anschließend auf "Post Transaction" (unten rechts).|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/posttransaction.png" width="100%" height="100%">|
+|Jetzt noch das Passwort für deinen Account eingeben (welches du beim ersten Start von Parity vergeben hast) und "CONFIRM REQUEST" klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/conformrequest.png" width="100%" height="100%">|
+|Deine Transaktion wird an die Blockchain "Ethereum" übergeben. Das kann ein paar Momente dauern.||
 
 
 | Schritt        | Screnshit          |
