@@ -30,7 +30,7 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 | Schritt        | Screnshit          |
 |:-------------|:------------------|
 |Schritt 1: Ethereum Browser herunterladen. Zur Verwendung des Prototypen sollte der Ethereum-Browser "Parity" verwendet werden.| |
-|Gehe zu https://parity.io/parity.html und klicke auf "Get Parity"|  <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/test.jpg" width="50%" height="50%">|
+|Gehe zu <a href="http://bit.ly/2mURyWZ" target="_blank">https://parity.io/parity.html</a> und klicke auf "Get Parity"|  <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/getParity.png" width="50%" height="50%">|
 Etwas nach unten scrollen, dann bei „Windows“ auf „Download“ klicken
 
 ### [](#kapB)Kapitel B: Erste Schritte mit dem „Dax Daily Knock-Out Future“
