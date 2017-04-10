@@ -96,6 +96,14 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 |Im Blockchain-Scanner sieht man den aktuellen Stand der Confirmations. Ab 6 Conformations sind Transaktionen in der Regel durchgeführt.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/etherscan2.png" width="100%" height="100%">|
 
 
+### Schritt 3: Informationen abrufen
+
+| Schritt        | Screenshot|
+|:-------------|:------------------|
+|||
+
+
+
 | Schritt        | Screnshit          |
 |:-------------|:------------------|
 | tes tes test | <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/test.jpg" width="12%" height="12%"> |
