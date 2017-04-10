@@ -46,7 +46,17 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 
 Etwas nach unten scrollen, dann bei „Windows“ auf „Download“ klicken
 
-### <a name="kapb"></a>Kapitel B: Erste Schritte mit dem Dax Daily Knock-Out Future [kapb]
+### <a name="kapb"></a>Kapitel B: Erste Schritte mit dem Dax Daily Knock-Out Future
+
+**Die nachfolgenden Schritte bite erst ausführen, wenn Parity vollständig synchron mit der Ethereum-Blockchain ist (siehe oben.**
+
+| Schritt        | Screenshot|
+|:-------------|:------------------|
+|Als erstes muss in Parity die Möglichkeit aktiviert werden, mit Smart Contracts zu interagieren. Dazu in den Bereich "Settings" (ganz oben rechts) gehen und die Checkbox bei "Contracts" aktivieren.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/activatecontracts.png" width="100%" height="100%">|
+|Als nächstes holen wir uns den Smart Financial Contract "Dax Daily Knock-Out Future" in unser Profil. Im Hauptmenü ganz oben erscheint nun der Menüpunkt "Contracts". Bitte darauf klicken, anschließen auf "+ WATCH" klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/contractswatch.png" width="100%" height="100%">|
+|Im nächsten Fenster "Custom Contract" auswählen und "Next" klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/customcontract.png" width="100%" height="100%">|
+|Das nächste Fenster hat viele Eingabefelder. Wir gehen jedes einzelne durch.||
+|**network address**: hier muss die Adresse des Smart Financial Contracts per copy&paste eingegeben werden. Die Adresse lautet: '''0x78D8AeAE03C12164189272Abd3934c98c87Ff6A4'''|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/networkaddress.png" width="100%" height="100%">
 
 
 | Schritt        | Screnshit          |
