@@ -33,7 +33,7 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 
 | Schritt        | Screnshit          |
 |:-------------|:------------------|
-| ok   skdjfnklsdhf l hjkdgjk dshjkg dshfghsdfjkg hdkhg ösdhgöjsdf gödfh köjhdföj khxdöfjbxökdhböjkxdhbköjxdhbökjxdöbxöjd hböxdfhöxdhg öxdghöxdfhg        | <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/test.jpg" width="12%" height="12%"> |
+| tes tes test | <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/test.jpg" width="12%" height="12%"> |
 
 
 
