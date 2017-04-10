@@ -32,8 +32,8 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 | Schritt        | Screenshot          |
 |:-------------|:------------------|
 |Gehe zu <a href="https://parity.io/parity.html" target="_blank">https://parity.io/parity.html</a> und klicke auf "Get Parity"|  <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/getParity.png" width="50%" height="50%">|
-|Parity installieren (InstallParity.exe ausführen)| leer |
-|Parity starten und synchronisieren.|
+|Parity installieren (InstallParity.exe ausführen)| 
+|Parity starten und synchronisieren. Im Startmenü sollte Parity als Anwendung aufgeführt sein|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/parityStartMenu.png" width="100%" height="100%">|
 |Parity sollte nach der Installation automatisch starten. Falls nicht: Parity wird über den Browser bedient. Öffne die URL http://127.0.0.1:8180, um auf die Parity-Oberfläche zu gelangen. Sollte eine Fehlermeldung erscheinen, dann im Startmenü nach „Parity Ethereum“ suchen und starten.|
 
 
