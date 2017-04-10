@@ -46,7 +46,7 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 
 Etwas nach unten scrollen, dann bei „Windows“ auf „Download“ klicken
 
-### (#kapb)Kapitel B: Erste Schritte mit dem „Dax Daily Knock-Out Future“
+### Kapitel B: Erste Schritte mit dem Dax Daily Knock-Out Future [kapb]
 
 
 | Schritt        | Screnshit          |
