@@ -42,7 +42,7 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 ## Kapitel A: Einstieg in die Ethereum Blockchain mit dem Ethereum-Browser "Parity"
 
 
-| Schritt        | Screenshot|
+| Schritt        | Screenshot (klick zum Vergrößern)|
 |:-------------|:------------------|
 |Schritt 1: Ethereum Browser herunterladen. Zur Verwendung des Prototypen sollte der Ethereum-Browser "Parity" verwendet werden. Gehe zu <a href="https://parity.io/parity.html" target="_blank">https://parity.io/parity.html</a> und klicke auf "Get Parity"|  <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/getParity.png" width="50%" height="50%">|
 |Parity installieren (InstallParity.exe ausführen)| 
@@ -64,7 +64,7 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 
 ### Schritt 1: Den Smart Financial Contract in die eigene Wallet einfügen
 
-| Schritt        | Screenshot|
+| Schritt        | Screenshot (klick zum Vergrößern)|
 |:-------------|:------------------|
 |Als erstes muss in Parity die Möglichkeit aktiviert werden, mit Smart Contracts zu interagieren. Dazu in den Bereich "Settings" (ganz oben rechts) gehen und die Checkbox bei "Contracts" aktivieren.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/activatecontracts.png" width="100%" height="100%">|
 |Als nächstes holen wir uns den Smart Financial Contract "Dax Daily Knock-Out Future" in unser Profil. Im Hauptmenü ganz oben erscheint nun der Menüpunkt "Contracts". Bitte darauf klicken, anschließen auf "+ WATCH" klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/contractswatch.png" width="100%" height="100%">|
@@ -85,7 +85,7 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 
 ### Schritt 2: Trades duchführen
 
-| Schritt        | Screenshot|
+| Schritt        | Screenshot (klick zum Vergrößern)|
 |:-------------|:------------------|
 |Erstelle deine Prognose (Dax schließt morgen höher oder tiefer)||
 |Gehe in Parity auf „Contracts“ und klicke auf den Smart Financial Contract, den du gerade angelegt hast.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/contracts.png" width="100%" height="100%">|
@@ -110,7 +110,7 @@ Wenn du den Smart Financial Contract aufrufst, landest Sie auf der Startseite de
 
 
 
-| Schritt        | Screenshot|
+| Schritt        | Screenshot (klick zum Vergrößern)|
 |:-------------|:------------------|
 |**Nächsten Verfallstag abrufen:** Im Feld "NextExpirationDay" steht der nächste Verfallstag des Daily Futures. Sämtliche Trades, die du jetzt tätigst, sind für diesen Verfallstag gültig. Das heißt bspw.: Wenn du short gehst (Funktion "GoShort"), dann gehst du für den "NextExpirationDay" short. Wenn am "NextExpirationDay" der Dax tiefer schließt als am Vortag, dann wäre dein Short-Deal erfolgreich.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/nextexpirationday.png" width="100%" height="100%">|
 |**Long/Short-Verhältnis abrufen:** Das Long/Short-Verhältnis zeigt an, wie viele Ether an einem Tag Long und Short investiert sind. Dabei handelt es sich um eine Momentaufnahme. Es können noch weitere Longs oder Shorts für den NextExpirationDay hinzukommen, bis keine Trades mehr angenommen werden. Je mehr Longs bzw. Shorts investiert sind, desto höher ist der mögliche Profit für die Gegenpositionen. Um das Long/Short-Verhältnis für einen Handelstag (Expiration Day) abzurufen, muss das Datum des Handelstages eingegeben werden. **Dabei ist das Format JJJMMTT (YYYYMMDD) einzuhalten. Der 10.04.2017 ist in diesem Format beispielsweise 20170410.** Das Long/Short-Verhältnis kann auch für Tage aus der Vergangenheit abgerufen werden.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/longsvsshorts.png" width="100%" height="100%">|
@@ -139,136 +139,12 @@ Gewinne können am Folgetag des Verfallstages abgerufen werden.
 > |:-----|:-----|:-----|:-----|
 > |Dax schließt bei 12225,06|Ich gehe short|Dax schließt bei 12200,52|Ich lasse meinen Gewinnn auszahlen|
 
-
-
-
-
-| Schritt        | Screnshit          |
+| Schritt        | Screenshot (klick zum Vergrößern)|
 |:-------------|:------------------|
-| tes tes test | <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/test.jpg" width="12%" height="12%"> |
-|Der Smart Financial Contract ist nun vorbereitet, um Transaktionen durchzuführen.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/contraticon.jpg" width="12%" height="12%">|
+|Klicke auf „Execute“|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/contractsexecute.png" width="100%" height="100%">|
+|Wähle im Feld "function to execute" die Funktion „WithDrawMyProfts“.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/functiontoexecute.png" width="100%" height="100%">|
+|Klick auf "Post Transaction"|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/posttransaction.png" width="100%" height="100%">|
 
 
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](#header-4).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# [](#header-1)Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## [](#header-2)Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### [](#header-3)Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/test.jpg =200x200)
-
-<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/test.jpg" width="12%" height="12%">
-
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+> ** Bei Fragen oder Problemen bitte einen "Issue" eröffnen (siehe ganz oben, auf den Reiter "Issue" klicken, dann "New Issue". Ein github-Account ist dafür notwendig, kann aber schnell angelegt werden).
