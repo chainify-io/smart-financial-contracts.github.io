@@ -2,7 +2,7 @@
 
 # Prototype: Daily Future Knock-Out
 ---
-**Inhaltsübersicht**
+## Inhalt
 
 -	[Eigenschaften des „Dax Daily Knock-Out Future“](#eigenschaften-des-dax-daily-knock-out-future)
 -	[Anleitung](#anleitung)
@@ -16,18 +16,18 @@
 		
 ---
 Diese Anleitung beschreibt, wie in den Smart Financial Contract „Dax Daily Knock-Out Future“ investiert werden kann.
-Das Ziel dieses Smart Financial Contracts ist es, zu zeigen, dass Finanz-Terminkontrakte in der Blockchain „Ethereum“ abgebildet werden können. In diesem Sinn wird dieser Prototyp Interessierten als TEST zur Verfügung gestellt. Die Benutzung der Software geschieht auf eigene Gefahr; jede Haftung für Schäden oder Verluste ist ausgeschlossen. Insbesondere die allgemeinen Risiken bei der Nutzung von Ethereum gelten auch hier, siehe <a href="https://www.ethereum.org/agreement" target="_blank">https://www.ethereum.org/agreement</a>.
+Das Ziel dieses Smart Financial Contracts ist es, zu zeigen, dass Finanz-Terminkontrakte in der Blockchain „Ethereum“ abgebildet werden können. In diesem Sinn wird dieser Prototyp Interessierten als **TEST** zur Verfügung gestellt. Die Benutzung der Software geschieht auf eigene Gefahr; jede Haftung für Schäden oder Verluste ist ausgeschlossen. Insbesondere die allgemeinen Risiken bei der Nutzung von Ethereum gelten auch hier, siehe <a href="https://www.ethereum.org/agreement" target="_blank">https://www.ethereum.org/agreement</a>.
 
 ## Eigenschaften des „Dax Daily Knock-Out Future“
 
 -	Der Trader setzt auf die Dax-Entwicklung des Folgetages. Man kann „LONG“ oder „SHORT“ gehen. Schließt der Dax am Folgetag über dem Schlusskurs des vorigen Tages, dann ist de „Dax Daily Knock-Out Future“ LONG, ansonsten short.
 -	Beispiel:
     - Es ist Montag, 18:00 Uhr. Der Dax schloss um 17:45 Uhr mit 11.800,12 Punkten
-    - Meine Prognose für Dienstag (der Folgetage) ist, dass der Dax höher schließt
-    - Also gehe ich „LONG“
-    - Am Dienstag schließt der Dax bei 11.900,45 Punkten, also höher als am Montag. LONG war somit die richtige Prognose.  - Die Auszahlung meines Gewinns (inkl. Invest natürlich) ist ab dem Folgetag (Mittwoch) möglich
-    - Test
-- Der Prototyp „Dax Daily Knock-Out Future“ ist ein recht einfaches Knock-Out Produkt. Trifft die Prognose ein, also Dax schließt höher oder tiefer, erhält man einen Gewinn. Trifft die eigene Prognose nicht ein, verliert man den investierten Ether-Betrag. Die Summe aller Verlust-Trades wird auf die Gewinner-Trades aufgeteilt. Der potentielle Gewinn ist somit abhängig von der Long/Short-Quota.
+    - Meine Prognose für Dienstag (der Folgetag) ist, dass der Dax höher schließt
+    - Also gehe ich „LONG“, ich initiiere die Transaktion am Montag abend.
+    - Am Dienstag schließt der Dax bei 11.900,45 Punkten, also höher als am Montag. LONG war somit die richtige Prognose.  
+	- Die Auszahlung meines Gewinns (inkl. Invest natürlich) ist ab dem Folgetag (Mittwoch) möglich
+- Der Prototyp „Dax Daily Knock-Out Future“ ist ein recht einfaches Knock-Out Produkt für Demonstrationszwecke. Trifft die Prognose ein, also Dax schließt höher oder tiefer, erhält man einen Gewinn. Trifft die eigene Prognose nicht ein, verliert man den investierten Ether-Betrag. Die Summe aller Verlust-Trades wird auf die Gewinner-Trades aufgeteilt. Der potentielle Gewinn ist somit abhängig von der Long/Short-Quota.
 
 ## Anleitung
 ---
@@ -55,7 +55,9 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 |Man kann auch direkt mit Kreditkarte, Giropay, Sofort-Überweisung usw. Ether kaufen, bspw. über „Anycoin Direct“. Weitere Möglichkeiten: Coinbase, Poloniex, Cex.io, Coinhose usw. Achtung: immer darauf achten, auch wirklich ETHER zu kaufen und keine Bitcoins. Du wirst bei jedem Anbieter irgendwann deine Ether-Wallet-Adresse angeben müssen. Diese findest du in Parity (und muss per Copy & Paste übertragen werden).|
 
 
-
+---
+[zum Inhaltsverzeichnis](#inhalt)
+---
 
 ## <a name="kapb"></a>Kapitel B: Erste Schritte mit dem Dax Daily Knock-Out Future
 
@@ -81,6 +83,8 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 |:-------------|:------------------|
 
 ---
+[zum Inhaltsverzeichnis](#inhalt)
+---
 
 ### Schritt 2: Trades duchführen
 
@@ -98,6 +102,9 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 |Man kann den Status der Transaktion live in der Blockchain verfolgen, indem man auf die Transaktionsnummer klickt.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/transactionposted2.png" width="100%" height="100%">|
 |Im Blockchain-Scanner sieht man den aktuellen Stand der Confirmations. Ab 6 Conformations sind Transaktionen in der Regel durchgeführt.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/etherscan2.png" width="100%" height="100%">|
 
+---
+[zum Inhaltsverzeichnis](#inhalt)
+---
 
 ### Schritt 3: Informationen abrufen
 
@@ -118,6 +125,9 @@ Wenn du den Smart Financial Contract aufrufst, landest Sie auf der Startseite de
 |**Meine Investments abrufen.** Mit den Funktionen **getMyLongs** und **getMyShorts** können Long- bzw. Short-Investments für den jeweiligen Handelstag abgerufen werden. Dazu muss das Datum des Handelstages eingegeben werden. **Dabei ist das Format JJJMMTT (YYYYMMDD) einzuhalten. Der 10.04.2017 ist in diesem Format beispielsweise 20170410.**. Weiterhin muss der **Account** eingegeben werden. Beim Klick in das Feld *AccountAddress:address* wird Parity ein Auswahlfeld öffnen, in dem der Account ausgewählt werden kann. (alternativ kann man hier auch Ethereum-Adressen eingeben). Nach Klick auf *Query* wird der investierte Betrag angezeigt. **Der Betrag wird dabei in der Währungseinheit "Wei" angezeigt** und sieht deshalb so "riesig" aus. Um den **Betrag in Ether anzeigen zu lassen**, einfach auf den kleinen Schieberegler daneben klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/getmylongs.png" width="100%" height="100%">|
 |Die Funktion **ShowMyProfit** zeigt alle bisher aufgelaufenen und noch nicht ausgezahlten Umsätze an. Das ist der Betrag, der beim Aufruf der Funktion **WithDrawMyProfit** überwiesen würde. Auch hier muss wieder die Adresse des Ethereum-Kontos angegeben werden. Nach Klick auf *Query* wird der  Betrag angezeigt. **Der Betrag wird dabei in der Währungseinheit "Wei" angezeigt** und sieht deshalb so "riesig" aus. Um den **Betrag in Ether anzeigen zu lassen**, einfach auf den kleinen Schieberegler daneben klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/showmyprofits.png" width="100%" height="100%">|
 
+---
+[zum Inhaltsverzeichnis](#inhalt)
+---
 
 ### Schritt 4: Gewinne auszahlen lassen
 
@@ -131,7 +141,7 @@ Gewinne können am Folgetag des Verfallstages abgerufen werden.
 > - Ich kann meinen Gewinn ab Dienstag, 11.07.2017, abrufen.
 > 
 > |Freitag|Sonntag|Montag|Dienstag|
->|:-----|:-----|:-----|:-----|
+> |:-----|:-----|:-----|:-----|
 > |Dax schließt bei 12225,06|Ich gehe short|Dax schließt bei 12200,52|Ich lasse meinen Gewinnn auszahlen|
 
 
