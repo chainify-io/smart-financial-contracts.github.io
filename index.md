@@ -127,8 +127,9 @@ Gewinne können am Folgetag des Verfallstages abgerufen werden. Beispiel:
 > - Der Dax schließt am Montag, 10.07.2017, bei 12200,52 Punkten und ist damit gesunken. Mein Short-Trade geht auf.
 > - Ich kann meinen Gewinn ab Dienstag, 11.07.2017, abrufen.
 
-
-
+|Freitag|Sonntag|Montag|Dienstag|
+|:-----|:-----|:-----|:-----|
+|Dax schließt bei 12225,06|Ich gehe short|Dax schließt bei 12200,52|Ich lasse meinen Gewinnn auszahlen|
 
 | Schritt        | Screnshit          |
 |:-------------|:------------------|
