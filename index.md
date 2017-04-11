@@ -11,7 +11,9 @@
 		- [Schritt 1: Den Smart Financial Contract in die eigene Wallet einfügen](#schritt-1-den-smart-financial-contract-in-die-eigene-wallet-einf%C3%BCgen)
 		- [Schritt 2: Trades duchführen](#schritt-2-trades-duchf%C3%BChren)
 		- [Schritt 3: Informationen abrufen](#schritt-3-informationen-abrufen)
-
+		- [Schritt 4: Gewinne auszahlen lassen](#schritt-4-gewinne-auszahlen-lassen)
+		
+		
 ---
 Diese Anleitung beschreibt, wie in den Smart Financial Contract „Dax Daily Knock-Out Future“ investiert werden kann.
 Das Ziel dieses Smart Financial Contracts ist es, zu zeigen, dass Finanz-Terminkontrakte in der Blockchain „Ethereum“ abgebildet werden können. In diesem Sinn wird dieser Prototyp Interessierten als TEST zur Verfügung gestellt. Die Benutzung der Software geschieht auf eigene Gefahr; jede Haftung für Schäden oder Verluste ist ausgeschlossen. Insbesondere die allgemeinen Risiken bei der Nutzung von Ethereum gelten auch hier, siehe <a href="https://www.ethereum.org/agreement" target="_blank">https://www.ethereum.org/agreement</a>.
@@ -119,17 +121,22 @@ Wenn du den Smart Financial Contract aufrufst, landest Sie auf der Startseite de
 
 ### Schritt 4: Gewinne auszahlen lassen
 
-Gewinne können am Folgetag des Verfallstages abgerufen werden. Beispiel:
+Gewinne können am Folgetag des Verfallstages abgerufen werden. 
+#### Beispiel:
 > - Der DAX schloss am Freitag, 07.04.2017, bei 12225,06 Punkten.
 > - Ich entschließe mich am Sonntag, 09.04.2017, "SHORT" zu gehen und stelle meinen Trade wie oben beschrieben ein.
 > - Der nächste Verfallstag (**NextExpirationDay**) ist Montag (10.07.2017).
 > - Daher ist mein Trade gültig für Montag, 10.07.2017.
 > - Der Dax schließt am Montag, 10.07.2017, bei 12200,52 Punkten und ist damit gesunken. Mein Short-Trade geht auf.
 > - Ich kann meinen Gewinn ab Dienstag, 11.07.2017, abrufen.
+> 
+> |Freitag|Sonntag|Montag|Dienstag|
+>|:-----|:-----|:-----|:-----|
+> |Dax schließt bei 12225,06|Ich gehe short|Dax schließt bei 12200,52|Ich lasse meinen Gewinnn auszahlen|
 
-|Freitag|Sonntag|Montag|Dienstag|
-|:-----|:-----|:-----|:-----|
-|Dax schließt bei 12225,06|Ich gehe short|Dax schließt bei 12200,52|Ich lasse meinen Gewinnn auszahlen|
+
+
+
 
 | Schritt        | Screnshit          |
 |:-------------|:------------------|
