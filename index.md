@@ -120,12 +120,12 @@ Wenn du den Smart Financial Contract aufrufst, landest Sie auf der Startseite de
 ### Schritt 4: Gewinne auszahlen lassen
 
 Gewinne können am Folgetag des Verfallstages abgerufen werden. Beispiel:
-> Der DAX schloss am Freitag, 07.04.2017, bei 12225,06 Punkten.
-> Ich entschließe mich am Sonntag, 09.04.2017, "SHORT" zu gehen und stelle meinen Trade wie oben beschrieben ein.
-> Der nächste Verfallstag (**NextExpirationDay**) ist Montag (10.07.2017).
-> Daher ist mein Trade gültig für Montag, 10.07.2017.
-> Der Dax schließt am Montag, 10.07.2017, bei 12200,52 Punkten und ist damit gesunken. Mein Short-Trade geht auf.
-> Ich kann meinen Gewinn ab Dienstag, 11.07.2017, abrufen.
+> - Der DAX schloss am Freitag, 07.04.2017, bei 12225,06 Punkten.
+> - Ich entschließe mich am Sonntag, 09.04.2017, "SHORT" zu gehen und stelle meinen Trade wie oben beschrieben ein.
+> - Der nächste Verfallstag (**NextExpirationDay**) ist Montag (10.07.2017).
+> - Daher ist mein Trade gültig für Montag, 10.07.2017.
+> - Der Dax schließt am Montag, 10.07.2017, bei 12200,52 Punkten und ist damit gesunken. Mein Short-Trade geht auf.
+> - Ich kann meinen Gewinn ab Dienstag, 11.07.2017, abrufen.
 
 
 
