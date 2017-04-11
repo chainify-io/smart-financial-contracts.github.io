@@ -1,3 +1,4 @@
+<a name="sfc"></a>
 <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/ws_logo.png" width="20%" height="20%">
 
 # Prototype: Daily Future Knock-Out
@@ -55,9 +56,7 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 |Man kann auch direkt mit Kreditkarte, Giropay, Sofort-Überweisung usw. Ether kaufen, bspw. über „Anycoin Direct“. Weitere Möglichkeiten: Coinbase, Poloniex, Cex.io, Coinhose usw. Achtung: immer darauf achten, auch wirklich ETHER zu kaufen und keine Bitcoins. Du wirst bei jedem Anbieter irgendwann deine Ether-Wallet-Adresse angeben müssen. Diese findest du in Parity (und muss per Copy & Paste übertragen werden).|
 
 
----
-[zum Inhaltsverzeichnis](#inhalt)
----
+[zum Inhaltsverzeichnis](#sfc)
 
 ## <a name="kapb"></a>Kapitel B: Erste Schritte mit dem Dax Daily Knock-Out Future
 
@@ -82,9 +81,7 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 |Abschließen auf "+ ADD CONTRACT" klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/addcontract.png" width="100%" height="100%">|
 |:-------------|:------------------|
 
----
-[zum Inhaltsverzeichnis](#inhalt)
----
+[zum Inhaltsverzeichnis](#sfc)
 
 ### Schritt 2: Trades duchführen
 
@@ -102,9 +99,7 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 |Man kann den Status der Transaktion live in der Blockchain verfolgen, indem man auf die Transaktionsnummer klickt.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/transactionposted2.png" width="100%" height="100%">|
 |Im Blockchain-Scanner sieht man den aktuellen Stand der Confirmations. Ab 6 Conformations sind Transaktionen in der Regel durchgeführt.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/etherscan2.png" width="100%" height="100%">|
 
----
-[zum Inhaltsverzeichnis](#inhalt)
----
+[zum Inhaltsverzeichnis](#sfc)
 
 ### Schritt 3: Informationen abrufen
 
@@ -125,9 +120,9 @@ Wenn du den Smart Financial Contract aufrufst, landest Sie auf der Startseite de
 |**Meine Investments abrufen.** Mit den Funktionen **getMyLongs** und **getMyShorts** können Long- bzw. Short-Investments für den jeweiligen Handelstag abgerufen werden. Dazu muss das Datum des Handelstages eingegeben werden. **Dabei ist das Format JJJMMTT (YYYYMMDD) einzuhalten. Der 10.04.2017 ist in diesem Format beispielsweise 20170410.**. Weiterhin muss der **Account** eingegeben werden. Beim Klick in das Feld *AccountAddress:address* wird Parity ein Auswahlfeld öffnen, in dem der Account ausgewählt werden kann. (alternativ kann man hier auch Ethereum-Adressen eingeben). Nach Klick auf *Query* wird der investierte Betrag angezeigt. **Der Betrag wird dabei in der Währungseinheit "Wei" angezeigt** und sieht deshalb so "riesig" aus. Um den **Betrag in Ether anzeigen zu lassen**, einfach auf den kleinen Schieberegler daneben klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/getmylongs.png" width="100%" height="100%">|
 |Die Funktion **ShowMyProfit** zeigt alle bisher aufgelaufenen und noch nicht ausgezahlten Umsätze an. Das ist der Betrag, der beim Aufruf der Funktion **WithDrawMyProfit** überwiesen würde. Auch hier muss wieder die Adresse des Ethereum-Kontos angegeben werden. Nach Klick auf *Query* wird der  Betrag angezeigt. **Der Betrag wird dabei in der Währungseinheit "Wei" angezeigt** und sieht deshalb so "riesig" aus. Um den **Betrag in Ether anzeigen zu lassen**, einfach auf den kleinen Schieberegler daneben klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/showmyprofits.png" width="100%" height="100%">|
 
----
-[zum Inhaltsverzeichnis](#inhalt)
----
+
+[zum Inhaltsverzeichnis](#sfc)
+
 
 ### Schritt 4: Gewinne auszahlen lassen
 
