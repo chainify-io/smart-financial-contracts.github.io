@@ -16,19 +16,20 @@
 		
 		
 ---
-Diese Anleitung beschreibt, wie in den Smart Financial Contract „Dax Daily Knock-Out Future“ investiert werden kann.
+Diese Anleitung beschreibt, wie in den Smart Financial Contract „Deutschland 30 Daily Knock-Out Future“ investiert werden kann.
 Das Ziel dieses Smart Financial Contracts ist es, zu zeigen, dass Finanz-Terminkontrakte in der Blockchain „Ethereum“ abgebildet werden können. In diesem Sinn wird dieser Prototyp Interessierten als **TEST** zur Verfügung gestellt. Die Benutzung der Software geschieht auf eigene Gefahr; jede Haftung für Schäden oder Verluste ist ausgeschlossen. Insbesondere die allgemeinen Risiken bei der Nutzung von Ethereum gelten auch hier, siehe <a href="https://www.ethereum.org/agreement" target="_blank">https://www.ethereum.org/agreement</a>.
 
 ## Eigenschaften des „Dax Daily Knock-Out Future“
 
--	Der Trader setzt auf die Dax-Entwicklung des Folgetages. Man kann „LONG“ oder „SHORT“ gehen. Schließt der Dax am Folgetag über dem Schlusskurs des vorigen Tages, dann ist de „Dax Daily Knock-Out Future“ LONG, ansonsten short.
+-	Der Trader setzt auf die Entwicklung des Deutschen Aktienindexes des Folgetages. Man kann „LONG“ oder „SHORT“ gehen. Schließt der Index am Folgetag über dem Schlusskurs des vorigen Tages, dann ist de „Germany 30 Daily Knock-Out Future“ LONG, ansonsten short.
+-	Der zu Grunde liegende Index ist angelehnt und abgeleitet vom Deutschen Aktienindex.
 -	Beispiel:
-    - Es ist Montag, 18:00 Uhr. Der Dax schloss um 17:45 Uhr mit 11.800,12 Punkten
+    - Es ist Montag, 18:00 Uhr. Der Dax schloss um 17:30 Uhr mit 11.800,12 Punkten
     - Meine Prognose für Dienstag (der Folgetag) ist, dass der Dax höher schließt
     - Also gehe ich „LONG“, ich initiiere die Transaktion am Montag abend.
     - Am Dienstag schließt der Dax bei 11.900,45 Punkten, also höher als am Montag. LONG war somit die richtige Prognose.  
 	- Die Auszahlung meines Gewinns (inkl. Invest natürlich) ist ab dem Folgetag (Mittwoch) möglich
-- Der Prototyp „Dax Daily Knock-Out Future“ ist ein recht einfaches Knock-Out Produkt für Demonstrationszwecke. Trifft die Prognose ein, also Dax schließt höher oder tiefer, erhält man einen Gewinn. Trifft die eigene Prognose nicht ein, verliert man den investierten Ether-Betrag. Die Summe aller Verlust-Trades wird auf die Gewinner-Trades aufgeteilt. Der potentielle Gewinn ist somit abhängig von der Long/Short-Quota.
+- Der Prototyp „Germany 30 Daily Knock-Out Future“ ist ein recht einfaches Knock-Out Produkt für **Demonstrationszwecke**. Trifft die Prognose ein, also der Dax schließt höher oder tiefer, erhält man einen Gewinn. Trifft die eigene Prognose nicht ein, verliert man den investierten Ether-Betrag. Die Summe aller Verlust-Trades wird auf die Gewinner-Trades aufgeteilt. Der potentielle Gewinn ist somit abhängig von der Long/Short-Quota.
 
 ## Anleitung
 ---
@@ -67,7 +68,7 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 | Schritt        | Screenshot (klick zum Vergrößern)|
 |:-------------|:------------------|
 |Als erstes muss in Parity die Möglichkeit aktiviert werden, mit Smart Contracts zu interagieren. Dazu in den Bereich "Settings" (ganz oben rechts) gehen und die Checkbox bei "Contracts" aktivieren.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/activatecontracts.png" width="100%" height="100%">|
-|Als nächstes holen wir uns den Smart Financial Contract "Dax Daily Knock-Out Future" in unser Profil. Im Hauptmenü ganz oben erscheint nun der Menüpunkt "Contracts". Bitte darauf klicken, anschließen auf "+ WATCH" klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/contractswatch.png" width="100%" height="100%">|
+|Als nächstes holen wir uns den Smart Financial Contract "Germany 30 Daily Knock-Out Future" in unser Profil. Im Hauptmenü ganz oben erscheint nun der Menüpunkt "Contracts". Bitte darauf klicken, anschließen auf "+ WATCH" klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/contractswatch.png" width="100%" height="100%">|
 |Im nächsten Fenster "Custom Contract" auswählen und "Next" klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/customcontract.png" width="100%" height="100%">|
 |Das nächste Fenster hat viele Eingabefelder. Wir gehen jedes einzelne durch.||
 |**network address**: hier muss die Adresse des Smart Financial Contracts per copy&paste eingegeben werden. Die Adresse lautet: ```0x78D8AeAE03C12164189272Abd3934c98c87Ff6A4```|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/networkaddress.png" width="100%" height="100%">|
