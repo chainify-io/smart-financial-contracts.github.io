@@ -3,16 +3,16 @@
 
 # Prototype: Daily Future Knock-Out
 ---
-## Inhalt
+## Contents
 
--	[Eigenschaften des „Dax Daily Knock-Out Future“](#eigenschaften-des-dax-daily-knock-out-future)
--	[Anleitung](#anleitung)
-    - [Kapitel A: Einstieg in die Ethereum Blockchain mit dem Ethereum-Browser "Parity"](#kapitel-a-einstieg-in-die-ethereum-blockchain-mit-dem-ethereum-browser-parity)
-	- [Kapitel B: Erste Schritte mit dem Dax Daily Knock-Out Future](#kapitel-b-erste-schritte-mit-dem-dax-daily-knock-out-future)
-		- [Schritt 1: Den Smart Financial Contract in die eigene Wallet einfügen](#schritt-1-den-smart-financial-contract-in-die-eigene-wallet-einf%C3%BCgen)
-		- [Schritt 2: Trades duchführen](#schritt-2-trades-duchf%C3%BChren)
-		- [Schritt 3: Informationen abrufen](#schritt-3-informationen-abrufen)
-		- [Schritt 4: Gewinne auszahlen lassen](#schritt-4-gewinne-auszahlen-lassen)
+-	[Properties of the "Germany 30 Daly Knock-Out Future"](#properties-of-the-germany-30-daily-knock-out-future)
+-	[Instructions](#instructions)
+    - [Chapter A: Onboarding to Ethereum with "Parity", a Ethereum Browser](#chapter-a-onboarding-to-ethereum-with-parity-a-ethereum-browser)
+	- [Chapter B: First steps with our Daily Knock-Out Future](#chapter-b-first-steps-with-our-daily-knock-out-future)
+		- [Step 1: Include the Smart Financial Contract into your Wallet](#step-1-include-the-smart-financial-contract-into-your-wallet)
+		- [Step 2: Execute trades](#step-2-execute-trades)
+		- [Step 3: Get Information from the Smart Financial Contract](#step-3-get-information-from-the-smart-financial-contract)
+		- [Step 4: Withdraw profits](#step-4-withdraw-profits)
 		
 		
 ---

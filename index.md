@@ -1,9 +1,9 @@
 <a name="sfc"></a>
-<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/ws_logo.png" width="80%" height="80%">
+<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/ws_logo.png" width="40%" height="40%">
 
 # Prototype: Daily Future Knock-Out
 ---
-## This page describes how to use the prototype Smart Financial Contracts
+## This page describes how to use the prototype Smart Financial Contract
 
 <br>
 <a href="https://github.com/smart-financial-contracts/smart-financial-contracts.github.io/blob/master/index_en.md#sfc" target="_blank">
@@ -11,5 +11,5 @@
 
 <br><br>
 <a href="https://github.com/smart-financial-contracts/smart-financial-contracts.github.io/blob/master/index_ger.md#sfc" target="_blank">
-<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/germany.png">  <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/austria.png">  <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/switzerland.png">  For For German instructions, click here (für die deutsche Version hier klicken).</a>
+<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/germany.png">  <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/austria.png">  <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/switzerland.png">  Für die deutsche Version hier klicken (For German instructions, click here).</a>
 
