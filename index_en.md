@@ -49,7 +49,7 @@ Introdution documents and links with more background information can be found he
 
 | Step        | Screenshot (click to enlarge)|
 |:-------------|:------------------|
-|Download an Ethereum browser. This prototype is tested with the Ethereum browser "Parity". Go to  <a href="https://parity.io/parity.html" target="_blank">https://parity.io/parity.html</a> and click "Get Parity".| <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/getParity.png" width="50%" height="50%">|
+|Download an Ethereum browser. <br> This prototype is tested with the Ethereum browser "Parity". Go to  <a href="https://parity.io/parity.html" target="_blank">https://parity.io/parity.html</a> and click "Get Parity".| <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/getParity.png" width="50%" height="50%">|
 |Install Parity (execute InstallParity.exe)|
 |Run Parity. You should find Parity in the Windows Start menu.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/parityStartMenu.png" width="100%" height="100%">|
 |Once started, Parity should appear as a tray icon in the info area of your taskbar.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/parityIcon.png" width="100%" height="100%">|
@@ -57,7 +57,7 @@ Introdution documents and links with more background information can be found he
 |**Important: on first startup right after installation, Parity has to perform a full synchronisation with the Ethereum blockchain. This is necessary in order to ensure reliable and secure execution of you Ethereum transactions. The synchroisation process takes a while. You can check the synchronisation status in the Parity screen bottom right.**|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/paritySyncStatus.png" width="100%" height="100%">|
 |If you want to ensure a proper synchronisation, just compare you local synchronisation status with the public blockchain. The synchronisation is displayed in "blocks". On http://www.etherscan.io you can find the current blockchain's latest block. Your Parity instance should display the same number.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/etherscan.png" width="100%" height="100%"> In the screenshot, the local Parity instancen synchronized 3,402,297 blocks, while http://etherscan.io  shows 3,468,505 blocks. In this example, the synchronisation is not finished yet.|
 |**Create your Ethererum Wallet:** <br> On first start, Parity will ask you to create an Ethereum wallet. Just follow the steps through.||
-|**Buying ETHER, Ethereums crypto currency**: If you already own Bitcoin, you can exchange them with Ether directly in Parity: Select on of you accounts and click „SHAPESHIFT“ klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/shapeshift.png" width="100%" height="100%">|
+|**Buying ETHER, Ethereums crypto currency**: <br> If you already own Bitcoin, you can exchange them with Ether directly in Parity: Select on of you accounts and click „SHAPESHIFT“ klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/shapeshift.png" width="100%" height="100%">|
 |You can also buy Ether with credit card, GiroPay, SOFORT, etc. There are several providers out there like „Anycoin Direct“, Coinbase, Poloniex, Cex.io, Coinhouse and many more. Important: pay a heed to really buy ETHER and no other crypto currency. In any step of purchasing Ether, you will eventually enter your Ethereum address. You can find it in Parity and need to copy&paste it to the Ether market place.|
 
 
@@ -96,65 +96,68 @@ Introdution documents and links with more background information can be found he
 |In Parity, click  „Contracts“ and select the Smart Financial Contract that you just included (step 1).|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/contracts.png" width="100%" height="100%">|
 |Click „Execute“|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/contractsexecute.png" width="100%" height="100%">|
 |In the field "function to execute", select **„GoLong“** (if you expect a bullish German stock market index) oder **„GoShort“** (if you expect the German stock market index to decline).|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/functiontoexecute.png" width="100%" height="100%">|
-|Wähle den Betrag, den du investieren möchtest und gibt ihn im Feld "transaction value" ein. **Mindestens 0,1 Ether, Maximal 2 Ether**|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/transactionvalue.png" width="100%" height="100%">|
-|**Wichtig: Zahlen werden in Parity in amerikanischem Format eingegeben. Das heißt: Punkt statt Komma!** ||
-|Klicken Sie anschließend auf "Post Transaction" (unten rechts).|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/posttransaction.png" width="100%" height="100%">|
-|Jetzt noch das Passwort für deinen Account eingeben (welches du beim ersten Start von Parity vergeben hast) und "CONFIRM REQUEST" klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/confirmrequest.png" width="100%" height="100%">|
-|Deine Transaktion wird an die Blockchain "Ethereum" übergeben. Das kann ein paar Momente dauern.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/transactionposted.png" width="100%" height="100%">|
-|Man kann den Status der Transaktion live in der Blockchain verfolgen, indem man auf die Transaktionsnummer klickt.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/transactionposted2.png" width="100%" height="100%">|
-|Im Blockchain-Scanner sieht man den aktuellen Stand der Confirmations. Ab 6 Conformations sind Transaktionen in der Regel durchgeführt.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/etherscan2.png" width="100%" height="100%">|
+|Choose the investment amount. <br> Enter your investment amount in field **"transaction value"** ein. **A minimum of 0.1 has to be invested. As this is only a demo version of a Smart Financial Contract, the maximum invest is 2 Ether**|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/transactionvalue.png" width="100%" height="100%">|
+|**Numbers are entered in American format. Thus:  dot "." is used as decimal mark, not commas(,), e.g. one tenth is 0.1 (NOT 0,1)** ||
+|Click "Post Transaction" (bottom right) to confirm your transaction.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/posttransaction.png" width="100%" height="100%">|
+|Enter the password of your Ethereum account (that you have given on first start of Parity) and click "CONFIRM REQUEST".|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/confirmrequest.png" width="100%" height="100%">|
+|Your transaction is delivered to and confirmed by the Ethereum blockchain. This may take a while.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/transactionposted.png" width="100%" height="100%">|
+|You can follow your transaction's status by clicking the transaction number. This opens the blockchain scanner "etherscan.io"|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/transactionposted2.png" width="100%" height="100%">|
+|The blockchain scanner shows the current confirmation status of you transaction. Usually, 6 confirmations make a transaction "confirmed".|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/etherscan2.png" width="100%" height="100%">|
 
-[zum Inhaltsverzeichnis](#sfc)
+[back to contents](#sfc)
 
-### Schritt 3: Informationen abrufen
+### Step 3: Get Information from the Smart Financial Contract
 
-Wenn du den Smart Financial Contract aufrufst, landest Sie auf der Startseite des Smart Contracts. Auf dieser Startseite befinden sich einige Funktionen, mit denen du Informationen zu deinen Investments, zum aktuellen Long/Short-Verhältnis usw. abrufen kannst. Die einzelnen Funktionen werden nachfolgend erklärt. Bei einigen Funktionen muss noch ein Input-Parameter eingegeben werden, bspw. ein Datum (im Format JJJMMTT), und die Abfrage mit einem Klick auf "Query" ausgeführt werden.
+When clicking the Smart Financial Contract in Parity, you get to the main page for that Smart Contract. That page shows some information and queries about the Smart Financial Contract, your investment, the current Long/Short ratio etc. Each information field and query is described below.
+Some queries require you to input parameters, e.g. the date. **Dates are entered in format "YYYYMMDD". Thus, April 27, 2017 is 20170427.**
 
-**Übersichtsseite eines Smart Financial Contracts:**
+
+**Screenshot: Main Page of a Smart Financial Contract:**
 <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/contractoverview.png" width="100%" height="100%">
 
 
 
-| Schritt        | Screenshot (klick zum Vergrößern)|
+| Step        | Screenshot (click to enlarge)|
 |:-------------|:------------------|
-|**Nächsten Verfallstag abrufen:** Im Feld "NextExpirationDay" steht der nächste Verfallstag des Daily Futures. Sämtliche Trades, die du jetzt tätigst, sind für diesen Verfallstag gültig. Das heißt bspw.: Wenn du short gehst (Funktion "GoShort"), dann gehst du für den "NextExpirationDay" short. Wenn am "NextExpirationDay" der Dax tiefer schließt als am Vortag, dann wäre dein Short-Deal erfolgreich.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/nextexpirationday.png" width="100%" height="100%">|
-|**Long/Short-Verhältnis abrufen:** Das Long/Short-Verhältnis zeigt an, wie viele Ether an einem Tag Long und Short investiert sind. Dabei handelt es sich um eine Momentaufnahme. Es können noch weitere Longs oder Shorts für den NextExpirationDay hinzukommen, bis keine Trades mehr angenommen werden. Je mehr Longs bzw. Shorts investiert sind, desto höher ist der mögliche Profit für die Gegenpositionen. Um das Long/Short-Verhältnis für einen Handelstag (Expiration Day) abzurufen, muss das Datum des Handelstages eingegeben werden. **Dabei ist das Format JJJMMTT (YYYYMMDD) einzuhalten. Der 10.04.2017 ist in diesem Format beispielsweise 20170410.** Das Long/Short-Verhältnis kann auch für Tage aus der Vergangenheit abgerufen werden.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/longsvsshorts.png" width="100%" height="100%">|
-|**Aktuelle Infos:** Im Feld "ImportantInfo" werden aktuelle Informationen dargestellt. Üblicherweise wird hier ein Verweis auf www.smart-financial-contracts.de dargestellt.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/importantinfo.png" width="100%" height="100%">|
-|Der **LastTradingDay** bezeichnet den letzten Handelstag, für den noch Trades angenommen werden (sozusagen ein Ablaufdatum). Danach ist der Smart Financial Contract nicht mehr handelbar.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/lasttradingday.png" width="100%" height="100%">|
-|**Schlusskurse der Vergangenheit abrufen.** Mit der Funktion **getGER30CloseAsOf** können Schlusskurse aus der Vergangenheit abgerufen werden. Um Schlusskurse abzurufen, muss das Datum des Handelstages eingegeben werden. **Dabei ist das Format JJJMMTT (YYYYMMDD) einzuhalten. Der 10.04.2017 ist in diesem Format beispielsweise 20170410.** |<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/getger30closesasof.png" width="100%" height="100%">|
-|**Meine Investments abrufen.** Mit den Funktionen **getMyLongs** und **getMyShorts** können Long- bzw. Short-Investments für den jeweiligen Handelstag abgerufen werden. Dazu muss das Datum des Handelstages eingegeben werden. **Dabei ist das Format JJJMMTT (YYYYMMDD) einzuhalten. Der 10.04.2017 ist in diesem Format beispielsweise 20170410.**. Weiterhin muss der **Account** eingegeben werden. Beim Klick in das Feld *AccountAddress:address* wird Parity ein Auswahlfeld öffnen, in dem der Account ausgewählt werden kann. (alternativ kann man hier auch Ethereum-Adressen eingeben). Nach Klick auf *Query* wird der investierte Betrag angezeigt. **Der Betrag wird dabei in der Währungseinheit "Wei" angezeigt** und sieht deshalb so "riesig" aus. Um den **Betrag in Ether anzeigen zu lassen**, einfach auf den kleinen Schieberegler daneben klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/getmylongs.png" width="100%" height="100%">|
-|Die Funktion **ShowMyProfit** zeigt alle bisher aufgelaufenen und noch nicht ausgezahlten Umsätze an. Das ist der Betrag, der beim Aufruf der Funktion **WithDrawMyProfit** überwiesen würde. Auch hier muss wieder die Adresse des Ethereum-Kontos angegeben werden. Nach Klick auf *Query* wird der  Betrag angezeigt. **Der Betrag wird dabei in der Währungseinheit "Wei" angezeigt** und sieht deshalb so "riesig" aus. Um den **Betrag in Ether anzeigen zu lassen**, einfach auf den kleinen Schieberegler daneben klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/showmyprofits.png" width="100%" height="100%">|
+|**Get next expiration day:** <br> The field "NextExpirationDay" shows the next expiration day of the daily future. All trades (long or short) that you execute right now will be valid for that day. For example: If you invest short (function "GoShort"), you go short for day that's displayed in "NextExpirationDay". If "NextExpirationDay", the German stock market index closes lower than the day before, your short deal will be successful.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/nextexpirationday.png" width="100%" height="100%">|
+|**Get Long Short ratio:** <br> The field **ShowLongsVsShorts** shows all invested Ether (both, long investments and short investments) for one day. The more longs or shorts are invested, the higher is the possible profit for counter positions. In order to get the Long Short Ratio for a specific trading day (Expiration Day), just enter the date and click "query". **Dates are entered in format "YYYYMMDD". E.g. April 27, 2017 is 20170427.** The long short ration can be queried for all dates, also for the past.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/longsvsshorts.png" width="100%" height="100%">|
+|**Important Information:** <br> The field "ImportantInfo" shows current important information. Usually it shows the link to www.smart-financial-contracts.de.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/importantinfo.png" width="100%" height="100%">|
+|**LastTradingDay**:<br>The **LastTradingDay** is the last day you can invest in the Smart Financial Contract. After that date, the Smart Financial Contract cannot be traded any more. Neverteheless, the Smart Financial Contract will be stored in the blockchain forever, e.g. for information retrieval purposes.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/lasttradingday.png" width="100%" height="100%">|
+|**Get closing prices for the underlying asset.**<br> The function **getGER30CloseAsOf** gives you closing prices of the underlying asset on a daily bases. In order to get a closing price, you need to specify the day (date). **Dates are entered in format "YYYYMMDD". E.g. April 27, 2017 is 20170427.** |<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/getger30closesasof.png" width="100%" height="100%">|
+|**Show my investments.**<br> The queries **getMyLongs** and **getMyShorts** show your long and short investments on a daily basis. You need to enter the day you want to query. **Dates are entered in format "YYYYMMDD". E.g. April 27, 2017 is 20170427.**. You further need to choose your Ethereum **Account**. If you click the field *AccountAddress:address* Parity will open a selection box to select your account (you could also enter an Ethereum address). Click *Query* to get the invested amount in Ether. **By default, the amount will be shown in the Etheruem currency unit "Wei"**, that's why the number looks so large. In order to get the **amount in Ether**, just click the small slide control.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/getmylongs.png" width="100%" height="100%">|
+|**Show my accumulated profits:**<br> The function **ShowMyProfit** shows all accumulated profits and invests that have not been withdrawn yet. This is the amount, that the function **WithDrawMyProfit** would withdraw to your Ethereum account. Again, you need to enter your Ethereum address. Click *Query* to get the amount. **By default, the amount will be shown in the Etheruem currency unit "Wei"**, that's why the number looks so large. In order to get the **amount in Ether**, just click the small slide control.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/showmyprofits.png" width="100%" height="100%">|
 
 
-[zum Inhaltsverzeichnis](#sfc)
+[back to contents](#sfc)
 
 
-### Schritt 4: Gewinne auszahlen lassen
+### Step 4: Withdraw profits
 
-Gewinne können am Folgetag des Verfallstages abgerufen werden. 
-#### Beispiel:
-> - Der DAX schloss am Freitag, 07.04.2017, bei 12225,06 Punkten.
-> - Ich entschließe mich am Sonntag, 09.04.2017, "SHORT" zu gehen und stelle meinen Trade wie oben beschrieben ein.
-> - Der nächste Verfallstag (**NextExpirationDay**) ist Montag (10.07.2017).
-> - Daher ist mein Trade gültig für Montag, 10.07.2017.
-> - Der Dax schließt am Montag, 10.07.2017, bei 12200,52 Punkten und ist damit gesunken. Mein Short-Trade geht auf.
-> - Ich kann meinen Gewinn ab Dienstag, 11.07.2017, abrufen.
+Profits can be withdrawn the day that follows the expiration day.
+
+#### Example:
+> - It is Friday (April 7, 2017), the German stock market index closed at 12225.06 points.
+> - On Sunday (April 9, 2017), I decide to go "SHORT" and initiate my trade (as described above).
+> - The next expiration day (**NextExpirationDay**) is Monday (April 10, 2017).
+> - Thus, my trade is valide for Monday (April 10, 2017).
+> - On Monday (April 10, 2017), the Germany stock market index closes at  12200.52 points, thus it is bearish and therefore short. My short trade wins.
+> - I can withdraw my profit and invest on Tuesday (April 11, 2017).
 > 
-> |Freitag|Sonntag|Montag|Dienstag|
+> |Friday|Sunday|Monday|Tuesday|
 > |:-----|:-----|:-----|:-----|
-> |Dax schließt bei 12225,06|Ich gehe short|Dax schließt bei 12200,52|Ich lasse meinen Gewinnn auszahlen|
+> |German stock market index closes 12225.06|I invest SHORT|German stock market index closes 12200.52|I withdraw my profit|
 
-| Schritt        | Screenshot (klick zum Vergrößern)|
+| Step        | Screenshot (click to enlarge)|
 |:-------------|:------------------|
-|Klicke auf „Execute“|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/contractsexecute.png" width="30%" height="30%">|
-|Wähle im Feld "function to execute" die Funktion „WithDrawMyProfts“.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/functiontoexecute.png" width="100%" height="100%">|
-|Klick auf "Post Transaction"|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/posttransaction.png" width="50%" height="50%">|
+|Click „Execute“|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/contractsexecute.png" width="30%" height="30%">|
+|Choose "function to execute" ==> „WithDrawMyProfts“.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/functiontoexecute.png" width="100%" height="100%">|
+|Click "Post Transaction"|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/posttransaction.png" width="50%" height="50%">|
 
 
 
 
 ---
 
-> ** Bei Fragen oder Problemen bitte einen "Issue" eröffnen (siehe ganz oben, auf den Reiter "Issue" klicken, dann "New Issue". Ein github-Account ist dafür notwendig, kann aber schnell angelegt werden).**
+> ** In case of problems or questions, please open an "Issue" (see on the very top of this page, click the tab "Issue", then "New Issue". You need a github account, but this can be created very quickly).**
 
 ---
