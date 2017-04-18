@@ -54,14 +54,14 @@ Eine Einführung in Ethereum mit vielen Links ist hier zu finden:
 |Wer auf Nummer sicher gehen möchte, kann die Anzahl synchronisierter Blöcke mit der Anzahl auf http://www.etherscan.io vergleichen.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/etherscan.png" width="100%" height="100%"> In den hier gezeigten Screenshots / Beispielen sind 3.402.297 synchronisiert, während in der Ethereum-Blockchain bereits 3.468.505 Blöcke vorhanden sind. Die Synchronisation ist in diesem Beispiel somit noch nicht abgeschlossen.|
 |**Ethererum Wallet anlegen:** Partiy wird dich beim ersten Start auffordern, eine Wallet anzulegen. Folge einfach den angezeigten Schritten.|
 |**Ether kaufen**: Falls du bereits Bitcoin besitzt, kannst Du direkt in Parity Bitcoins in Ether umtauschen. Dazu einfach auf einen deiner Accounts klicken und dann oben in der Symbolleiste auf „SHAPESHIFT“ klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/shapeshift.png" width="100%" height="100%">|
-|Man kann auch direkt mit Kreditkarte, Giropay, Sofort-Überweisung usw. Ether kaufen, bspw. über „Anycoin Direct“. Weitere Möglichkeiten: Coinbase, Poloniex, Cex.io, Coinhose usw. Achtung: immer darauf achten, auch wirklich ETHER zu kaufen und keine Bitcoins. Du wirst bei jedem Anbieter irgendwann deine Ether-Wallet-Adresse angeben müssen. Diese findest du in Parity (und muss per Copy & Paste übertragen werden).|
+|Man kann auch direkt mit Kreditkarte, Giropay, Sofort-Überweisung usw. Ether kaufen, bspw. über „Anycoin Direct“. Weitere Möglichkeiten: Coinbase, Poloniex, Cex.io, Coinhouse usw. Achtung: immer darauf achten, auch wirklich ETHER zu kaufen und keine Bitcoins. Du wirst bei jedem Anbieter irgendwann deine Ether-Wallet-Adresse angeben müssen. Diese findest du in Parity (und muss per Copy & Paste übertragen werden).|
 
 
 [zum Inhaltsverzeichnis](#sfc)
 
-## <a name="kapb"></a>Kapitel B: Erste Schritte mit dem Dax Daily Knock-Out Future
+## <a name="kapb"></a>Kapitel B: Erste Schritte mit dem Daily Knock-Out Future
 
-**Die nachfolgenden Schritte bite erst ausführen, wenn Parity vollständig synchron mit der Ethereum-Blockchain ist (siehe oben.**
+**Die nachfolgenden Schritte bite erst ausführen, wenn Parity vollständig synchron mit der Ethereum-Blockchain ist (siehe oben.)**
 
 ### Schritt 1: Den Smart Financial Contract in die eigene Wallet einfügen
 
