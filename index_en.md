@@ -24,38 +24,40 @@ The prototype is considered as a **TEST** version and not for productive usage. 
 
 - Traders and investors can place LONG and SHORT trades on the Germany 30 index. This index is derived from the DAX index.
 - Trades are valid for the Dax's result on the following day. If next day, the Dax closes higher, LONG traders win, of lower, SHORT traders win.
-- Example:
-	- It's Monday 6pm. Dax (Germany 30 index) closes at 11,800.12 points.
-	- I assume the Dax will close higher (above 11,800.12 points) tomorrow, on Tuesday.
-	- I go LONG with the Smart Financial Contract, I initiate the GoLong function Monday evening.
-	- The Dax closes 11,900.45 points on Tuesday which is higher than on Monday, thus LONG. My trade was successful.
-	- I can withdraw my profit and invest the following day, Wednesday.
+> - Example:
+>	- It's Monday 6pm. Dax (Germany 30 index) closes at 11,800.12 points.
+>	- I assume the Dax will close higher (above 11,800.12 points) tomorrow, on Tuesday.
+>	- I go LONG with the Smart Financial Contract, I initiate the GoLong function Monday evening.
+>	- The Dax closes 11,900.45 points on Tuesday which is higher than on Monday, thus LONG. My trade was successful.
+>	- I can withdraw my profit and invest the following day, Wednesday.
 - This prototype Smart Financial Contract is a simple knock out product for **demonstration purposes**. If the forecast (long or short) was right, the investor gets the invest plus a premium back. If the forecast was wrong, the investor loses her invest - this is the "knock out" characteristic.
 - The sum of all losing trades will be shared with winning trades based on share of total invest. Potential profits depend on the long/short quota.	
 
 
-## Anleitung
+## Instructions
 ---
-Wer sich bereits mit Ethereum auskennt und eine Wallet mit ein paar Ether besetzt, kann direkt ins [Kapitel B](#kapb). springen.
-Als kurze Einführung in Ethereum dient auch dieses Video: 
-<a href="https://youtu.be/j23HnORQXvs" target="_blank">https://youtu.be/j23HnORQXvs</a>
 
-Eine Einführung in Ethereum mit vielen Links ist hier zu finden: 
+If you already know how to use Ethereum and own some Ethers, you can continue with [Capter B](#kapb).
+
+This video is a quick introduction into Ethereum: <a href="https://youtu.be/j23HnORQXvs" target="_blank">https://youtu.be/j23HnORQXvs</a>
+
+Introdution documents and links with more background information can be found here: 
 <a href="http://bit.ly/2mURyWZ" target="_blank">http://bit.ly/2mURyWZ</a>
 
-## Kapitel A: Einstieg in die Ethereum Blockchain mit dem Ethereum-Browser "Parity"
+## Chapter A: Onboarding to Ethereum with "Parity", a Ethereum Browser
 
 
-| Schritt        | Screenshot (klick zum Vergrößern)|
+| Step        | Screenshot (click to enlarge)|
 |:-------------|:------------------|
-|Schritt 1: Ethereum Browser herunterladen. Zur Verwendung des Prototypen sollte der Ethereum-Browser "Parity" verwendet werden. Gehe zu <a href="https://parity.io/parity.html" target="_blank">https://parity.io/parity.html</a> und klicke auf "Get Parity"|  <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/getParity.png" width="50%" height="50%">|
-|Parity installieren (InstallParity.exe ausführen)| 
-|Parity starten und synchronisieren. Im Startmenü sollte Parity als Anwendung aufgeführt sein|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/parityStartMenu.png" width="100%" height="100%">|
-|Partiy sollte nun als kleines Icon im Info-Bereich der Taskleiste erscheinen.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/parityIcon.png" width="100%" height="100%">|
-|Die Parity-Benutzeroberfläche sollte nach der Installation automatisch starten. Falls nicht: Parity wird über den Browser bedient. Öffne die URL http://127.0.0.1:8180, um auf die Parity-Oberfläche zu gelangen.| <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/parityHome.png" width="100%" height="100%">|
-|**Wichtig: beim ersten Start von Parity erfolgt eine vollständige Synchronisation mit der Blockchain „Ethereum“. Um Transaktionen sicher durchzuführen, sollte diese Synchronisation vollständig abgeschlossen sein. Das kann eine Weile dauern. Der Status der Synchronisation kann ganz unten in Parity abgelesen werden.**|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/paritySyncStatus.png" width="100%" height="100%">|
-|Wer auf Nummer sicher gehen möchte, kann die Anzahl synchronisierter Blöcke mit der Anzahl auf http://www.etherscan.io vergleichen.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/etherscan.png" width="100%" height="100%"> In den hier gezeigten Screenshots / Beispielen sind 3.402.297 synchronisiert, während in der Ethereum-Blockchain bereits 3.468.505 Blöcke vorhanden sind. Die Synchronisation ist in diesem Beispiel somit noch nicht abgeschlossen.|
-|**Ethererum Wallet anlegen:** Partiy wird dich beim ersten Start auffordern, eine Wallet anzulegen. Folge einfach den angezeigten Schritten.|
+|Download an Ethereum browser. This prototype is tested with the Ethereum browser "Parity". Go to  <a href="https://parity.io/parity.html" target="_blank">https://parity.io/parity.html</a> and click "Get Parity".| <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/getParity.png" width="50%" height="50%">|
+
+|Install Parity (execute InstallParity.exe| 
+|Run Parity. You should find Parity in the Windows Start menu.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/parityStartMenu.png" width="100%" height="100%">|
+|Once started, Parity should appear as a tray icon in the info area of your taskbar.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/parityIcon.png" width="100%" height="100%">|
+|Parity's graphical user interface (GUI) should start automatically. If that is not the case: Partiy's GUI can be opened via you standard browser. Just open the URL http://127.0.0.1:8180 to get to Parity's user interface.| <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/parityHome.png" width="100%" height="100%">|
+|**Important: on first startup after the installation, Parity has to perform a full synchronisation with the Ethereum blockchain. This is necessary in order to ensure reliable and secure execution of you Ethereum transactions. The synchroisation process takes a while. You can check the synchronisation status in the Parity screen bottom right.**|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/paritySyncStatus.png" width="100%" height="100%">|
+|If you want to ensure a proper synchronisation, just compare you local synchronisation status with the public blockchain. The synchronisation is displayed in "blocks". On http://www.etherscan.io you can find the current blockchain's latest block. Your Parity instance should display the same number.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/etherscan.png" width="100%" height="100%"> In the screenshot, the local Parity instancen synchronized 3,402,297 blocks, while http://etherscan.io  shows 3,468,505 blocks. In this example, the synchronisation is not finished yet.|
+|**Ethererum Wallet anlegen:** <br> Partiy wird dich beim ersten Start auffordern, eine Wallet anzulegen. Folge einfach den angezeigten Schritten.|
 |**Ether kaufen**: Falls du bereits Bitcoin besitzt, kannst Du direkt in Parity Bitcoins in Ether umtauschen. Dazu einfach auf einen deiner Accounts klicken und dann oben in der Symbolleiste auf „SHAPESHIFT“ klicken.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/shapeshift.png" width="100%" height="100%">|
 |Man kann auch direkt mit Kreditkarte, Giropay, Sofort-Überweisung usw. Ether kaufen, bspw. über „Anycoin Direct“. Weitere Möglichkeiten: Coinbase, Poloniex, Cex.io, Coinhose usw. Achtung: immer darauf achten, auch wirklich ETHER zu kaufen und keine Bitcoins. Du wirst bei jedem Anbieter irgendwann deine Ether-Wallet-Adresse angeben müssen. Diese findest du in Parity (und muss per Copy & Paste übertragen werden).|
 
