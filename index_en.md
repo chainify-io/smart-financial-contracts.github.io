@@ -50,9 +50,7 @@ Introdution documents and links with more background information can be found he
 | Step        | Screenshot (click to enlarge)|
 |:-------------|:------------------|
 |Download an Ethereum browser. This prototype is tested with the Ethereum browser "Parity". Go to  <a href="https://parity.io/parity.html" target="_blank">https://parity.io/parity.html</a> and click "Get Parity".| <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/getParity.png" width="50%" height="50%">|
-
 |Install Parity (execute InstallParity.exe|
-
 |Run Parity. You should find Parity in the Windows Start menu.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/parityStartMenu.png" width="100%" height="100%">|
 |Once started, Parity should appear as a tray icon in the info area of your taskbar.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/parityIcon.png" width="100%" height="100%">|
 |Parity's graphical user interface (GUI) should start automatically. If that is not the case: Partiy's GUI can be opened via you standard browser. Just open the URL http://127.0.0.1:8180 to get to Parity's user interface.| <img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/parityHome.png" width="100%" height="100%">|
