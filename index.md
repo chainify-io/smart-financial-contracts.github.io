@@ -40,5 +40,9 @@ Click here to access it:
 
 http://smart-financial-contracts.github.io/dapp/
 
+You need to press the button "Click here to initialize and update" to connect to the blockchain.
+
+<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/dapp_initialize.png">
+
 
 
