@@ -4,10 +4,9 @@
 # Prototype: Daily Future Knock-Out
 ---
 ## This page describes how to use the prototype Smart Financial Contract
+Prerequisites: Windows, Linux or OSX computer.
 
 ### Steps:
-
-Prerequisites: Windows, Linux or OSX computer.
 
 #### Install "MetaMask"
 
@@ -17,7 +16,7 @@ Prerequisites: Windows, Linux or OSX computer.
 |2. Get the Chrome Plugin "MetaMask": https://metamask.io/||
 |3. MetaMask should start automatically after the installation.||
 |4. Follow the first steps of MetaMask, and choose a password.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/metamask_pw.png" width="50%" height="50%">|
-|5. **Very Important**: Ensure you are on the test network. It is indicated top left of the MetaMask window. It should display "Ropsten Test Net", see screenshot.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/metamask_ropsten.png" width="50%" height="50%">|
+|5. **Very Important**: Ensure you are on the test network. It is indicated top left of the MetaMask window. It should display "Ropsten Test Net", see screenshot.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/metamask_ropsten.png" width="100%" height="100%">|
 |6. If you are not on the testnet (see step 5), then select the "Ropsten Test Net"|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/metamask_chooseropsten.png" width="50%" height="50%">|
 
 You are now ready to interact with the Ethereum test network.
@@ -32,6 +31,13 @@ In order to perform test trades, you need some currency units "Ether". Don't wor
 |2. Click the "Buy" button.|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/metamask_buyether1.png" width="50%" height="50%">|
 |3. Click "Ropsten Test Faucet"|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/metamask_faucet.png" width="50%" height="50%">|
 |4. Aa web page opens. Click "request 1 ether from faucet" several times. Every click will give you 1 Ether. Please don't be greedy!|<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/images/metamask_faucet2.png" width="50%" height="50%">|
+
+
+#### Access the dezentraliced web app
+
+You are now ready to invest in and trade with the Smart Financial Contract prototype.
+
+Click here to access it
 
 
 
