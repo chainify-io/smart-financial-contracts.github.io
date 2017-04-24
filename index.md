@@ -6,6 +6,15 @@
 ## This page describes how to use the prototype Smart Financial Contract
 Prerequisites: Windows, Linux or OSX computer.
 
+Overview:
+-	[Install "MetaMask"](#install-metamask)
+-	[Get some "Ether"](#get-some-ether)
+-	[Access the dezentraliced web app](#access-the-dezentraliced-web-app)
+
+If you already have MetaMask installed and some Ether, you can directly access the web app:
+http://smart-financial-contracts.github.io/dapp/
+
+
 
 ## Install "MetaMask"
 
