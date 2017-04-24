@@ -12,7 +12,7 @@ Overview:
 -	[Access the dezentraliced web app](#access-the-dezentraliced-web-app)
 
 If you already have MetaMask installed and some Ether, you can directly access the web app:
-http://smart-financial-contracts.github.io/dapp/
+[http://smart-financial-contracts.github.io/dapp/](#http://smart-financial-contracts.github.io/dapp/)
 
 
 
@@ -47,7 +47,7 @@ You are now ready to invest in and trade with the Smart Financial Contract proto
 
 Click here to access it:
 
-http://smart-financial-contracts.github.io/dapp/
+[http://smart-financial-contracts.github.io/dapp/](#http://smart-financial-contracts.github.io/dapp/)
 
 You need to press the button "Click here to initialize and update" to connect to the blockchain.
 
