@@ -11,7 +11,7 @@ Overview:
 -	[Get some "Ether"](#get-some-ether)
 -	[Access the dezentraliced web app](#access-the-dezentraliced-web-app)
 
-If you already have MetaMask installed and some Ether, you can directly access the web app:
+If you already have the MetaMask plugin and an Ethereum account for the Ropsten Test Net inlcuding some Ether, you can directly access the web app:
 <a href="http://smart-financial-contracts.github.io/dapp/">http://smart-financial-contracts.github.io/dapp/</a>
 
 
