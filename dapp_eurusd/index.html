@@ -1,0 +1,312 @@
+<html>
+<head>
+  <title>Daily Future</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js">
+   <script src="http://rawgit.com/ethereum/web3.js/0.15.0/dist/web3.min.js"></script>
+<script type="text/javascript">
+var myContractInstance;
+function wait(ms){
+   var start = new Date().getTime();
+   var end = start;
+   while(end < start + ms) {
+     end = new Date().getTime();
+  }
+}
+
+function initializeContract () {
+var abiArray= [{"constant":false,"inputs":[],"name":"__getExpiryDate","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"LastTradingDay","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"WithdrawMyProfits","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"AccountAddress","type":"address"}],"name":"ShowMyProfits","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"GoLong","outputs":[{"name":"","type":"uint256"}],"payable":true,"type":"function"},{"constant":true,"inputs":[],"name":"NextExpirationDay","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"breakingNews","type":"string"}],"name":"__ChangeNews","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"Date","type":"uint256"}],"name":"ShowLongsVsShorts","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"amount","type":"uint256"}],"name":"__dividendPayments","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"ImportantInfo","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"GoShort","outputs":[{"name":"","type":"uint256"}],"payable":true,"type":"function"},{"constant":true,"inputs":[{"name":"Date","type":"uint256"},{"name":"AccountAddress","type":"address"}],"name":"getMyLongs","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"newDaxClose","type":"uint256"},{"name":"newDay","type":"uint256"}],"name":"__SetGER30Close","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"Date","type":"uint256"}],"name":"getGER30CloseAsOf","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"Date","type":"uint256"},{"name":"AccountAddress","type":"address"}],"name":"getMyShorts","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"newExpiryDateString","type":"string"},{"name":"newExpiryDate","type":"uint256"}],"name":"__ChangeExpiryDate","outputs":[],"payable":false,"type":"function"},{"inputs":[],"payable":true,"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"","type":"string"}],"name":"ErrorMessage","type":"event"}]
+	var MyContract = web3.eth.contract(abiArray);
+	myContractInstance = MyContract.at('0x78D8AeAE03C12164189272Abd3934c98c87Ff6A4'); 
+	//dax v12.2 0x78D8AeAE03C12164189272Abd3934c98c87Ff6A4
+	//dax v12.3 0xaef92941008CA76Aaba988A85B77c5D56Dc2982a
+}
+
+function displayAccountDetails () {	
+	//account
+	document.getElementById('coinbase').innerText = web3.eth.accounts[0];
+	
+	//Balance
+	web3.eth.getBalance(web3.eth.accounts[0], function(error, result){
+    if(!error) {
+        var myBalance=web3.fromWei(result,'ether');
+
+		document.getElementById('balance').innerText =myBalance + "  Ether";
+		}
+    else
+        console.error(error);
+	})
+}
+
+function displayInvests() {
+	startApp();
+	myContractInstance.getMyLongs(document.getElementById("dateInvest").value,web3.eth.accounts[0],function(error, result){
+    if(!error)
+		document.getElementById('longInvest').innerText=web3.fromWei(result,'ether')+ " Ether";
+    else
+        console.error(error);
+	})
+	
+	myContractInstance.getMyShorts(document.getElementById("dateInvest").value,web3.eth.accounts[0],function(error, result){
+    if(!error)
+		document.getElementById('shortInvest').innerText=web3.fromWei(result,'ether')+ " Ether";
+    else
+        console.error(error);
+	})
+}
+
+function displayPendingProfits () {
+	myContractInstance.ShowMyProfits(web3.eth.accounts[0],function(error, result){
+    if(!error)
+		//var expDate=new BigNumber(result);
+		document.getElementById('pendingProfits').innerText =web3.fromWei(result,'ether')+ " Ether";
+		
+		//für Screenshot
+		//document.getElementById('pendingProfits').innerText ="1.2764876 Ether";
+    else
+        console.error(error);
+	})
+}
+
+function displayCurrentSFCStatus() {	
+	myContractInstance.NextExpirationDay(function(error, result){
+    if(!error) {
+		//var expDate=new BigNumber(result);
+		document.getElementById('nextExpiryDate').innerText =result;
+		
+		document.getElementById('golongbutton').innerText="Go Long for " + result.toString();
+		document.getElementById('goshortbutton').innerText="Go Short for " + result.toString();
+	}
+    else
+        console.error(error);
+	})
+	
+
+	
+	myContractInstance.ImportantInfo(function(error, result){
+    if(!error)
+		//var expDate=new BigNumber(result);
+		document.getElementById('importantInfo').innerText =result;
+    else
+        console.error(error);
+	})
+	
+	myContractInstance.LastTradingDay(function(error, result){
+    if(!error)
+		//var expDate=new BigNumber(result);
+		document.getElementById('lastTradingDay').innerText =result;
+    else
+        console.error(error);
+	})
+	
+	document.getElementById('underlying').innerText="German stock market index of 30 biggest companies (Dax)";
+}
+
+function displayLSRatio() {	
+	startApp()
+	myContractInstance.ShowLongsVsShorts(document.getElementById("dateLS").value,function(error, result){
+    if(!error)
+		//var expDate=new BigNumber(result);
+		document.getElementById('lsRatio').innerText =result;
+    else
+        console.error(error);
+	})
+}
+
+function displayClosePrice() {
+	startApp();
+	myContractInstance.getGER30CloseAsOf(document.getElementById("closeDate").value,function(error, result){
+    if(!error)
+		//var expDate=new BigNumber(result);
+		document.getElementById('closePrice').innerText =result;
+    else
+        console.error(error);
+	})
+}
+
+function checkEmbeddedWeb3() {
+	if (typeof web3 !== 'undefined') {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function checkCorrectInvestAmount() {
+	startApp();
+	
+	if(!(document.getElementById("investAmount").value>=0.1 && document.getElementById("investAmount").value <=2)) {
+		document.getElementById('tradingError').innerText="Please enter a number between 0.1 and 2. Please ensure do use dots, not commas as decimal sepataror (e.g. one tenth is 0.1 and NOT 0,1)";
+		return false;
+	}
+	return true;
+}
+
+function executeLongTrade() {	
+	if (checkCorrectInvestAmount()){
+		myContractInstance.GoLong({from: web3.eth.coinbase, value:web3.toWei(document.getElementById("investAmount").value,'ether')},function(error, result){
+		if(!error) {
+			document.getElementById('tradingError').innerText="";
+			}
+		else
+			console.error(error);
+		})
+	}
+}
+
+function executeShortTrade() {	
+	if (checkCorrectInvestAmount()){
+		myContractInstance.GoShort({from: web3.eth.coinbase, value:web3.toWei(document.getElementById("investAmount").value,'ether')},function(error, result){
+		if(!error) {
+			document.getElementById('tradingError').innerText="";
+			}
+		else
+			console.error(error);
+		})
+	}
+}
+
+function withdrawProfits() {
+		startApp();
+		myContractInstance.WithdrawMyProfits({from: web3.eth.coinbase},function(error, result){
+		if(!error) {
+			document.getElementById('tradingError').innerText="";
+			}
+		else
+			console.error(error);
+		})
+}
+
+function startApp() {
+	//location.reload();
+	//warten();
+	if (checkEmbeddedWeb3()) {
+		initializeContract();
+		displayAccountDetails();
+		displayPendingProfits();
+		displayCurrentSFCStatus();
+		document.getElementById('nometamask').innerHTML="Ethereum connection successful";
+	} else {
+		document.getElementById('nometamask').innerHTML ="<h1>Metamask not ready. You need the Metamask plugin and Google Chrome to access Ethereum. Download from <a href='https://metamask.io/'>https://metamask.io/</a>.</h1>";
+	}
+}
+
+
+
+
+</script>
+</head>
+
+<body>
+
+<table><tr>
+	<td>
+		<img src="https://raw.githubusercontent.com/smart-financial-contracts/smart-financial-contracts.github.io/master/ws_logo.png" width="175" height="64">
+	</td>
+	<td>
+		<h3> Early Prototype Interface </h3>
+	</td>
+</table></tr>
+
+	<button onclick="startApp()">Click here to initialize and update</button>
+	<strong id="nometamask" colour="red">ETHEREUM CONNECTION NOT ESTABLISHED YET (click the button on the left)</strong>
+	<br><br>
+  
+  <div class="jumbotron">    
+	<table>
+		<tr>
+		<td valign=top>
+			<h3>Your Account Details:</h3>
+			<h5>Main Account Address: <strong id="coinbase"></strong></h5>
+			<h5>Balance: <strong id="balance"></strong></h5>
+		</td>
+		
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td> <br>.<br>.<br>.<br>.<br>.<br>.<br></td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		
+		<td valign=top>
+			<h3>Pending Profits:</h3>
+			<h5>Profits pending for withdraw: <strong id="pendingProfits"></strong></h5><br>
+			<button id="withdrawbutton" onclick="withdrawProfits()">Withdraw Profits</button>
+		</td>
+		</tr>
+		</table>
+		<hr>
+		
+		<h3>Trading:</h3>
+		<table>
+		<tr>
+			<td valign=top>
+			Enter Investment Amount in Ether: &nbsp;&nbsp;	
+			</td>
+			<td valign=top>
+			<input name="investAmount" type="text" maxlength="30" id="investAmount" class="searchField" value="e.g. 1.323453" onfocus="if(this.value=='e.g. 1.323453'){this.value='';}" onblur="if(this.value==''){this.value='e.g. 1.323453';}"/> 
+			
+			</td>
+		</tr>
+		</table>
+		The investment amount needs to be entered in Ether. Numbers are entered in American format. Thus: dot "." is used as decimal mark, not commas(,), e.g. one tenth is 0.1 (NOT 0,1).<br>
+		
+		<tr>		
+			<td valign=top>			
+				<br>
+				<button id="golongbutton" onclick="executeLongTrade()">Go Long</button> &nbsp;&nbsp;&nbsp;&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td valign=top>			
+				<button id="goshortbutton" onclick="executeShortTrade()">Go Short</button>
+			</td>
+		</tr>
+		</table>
+		<br><font color="red"><strong id="tradingError"></strong></font>
+		<hr>
+		
+		
+		<table>
+		<tr>		
+		<td valign=top>
+			<h3>Show your Investments:</h3>
+			<input name="dateInvest" type="text" maxlength="512" id="dateInvest" class="searchField" value="Input Date, e.g. 20170420" onfocus="if(this.value=='Input Date, e.g. 20170420'){this.value='';}" onblur="if(this.value==''){this.value='Input Date, e.g. 20170420';}"/>*
+			<button onclick="displayInvests()">Show Invest</button>
+		</td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td>  </td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td valign=center>
+			<h3>Result:</h3>
+			<h5>Long Invest: <strong id="longInvest"></strong></h5>
+			<h5>Short Invest: <strong id="shortInvest"></strong></h5>
+		</td>
+		</tr>
+		</table> <hr>
+	
+	<h3>Smart Financial Contract Details:</h3>
+	<table valign=top>
+		<tr><td>Underlying Asset:<br><br></td><td valign=top><strong id="underlying"></strong></td></tr>	
+		<tr><td>NextExpirationDay:<br><br></td><td valign=top><strong id="nextExpiryDate"></strong></td></tr>	
+		<tr><td>Important Information:<br><br></td><td valign=top> <strong id="importantInfo"></strong></td></tr>
+		<tr><td>Last Trading Day:<br><br></td><td valign=top> <strong id="lastTradingDay"></strong></td></tr>
+	</table>
+	<table valign=top>
+		<tr valign=top>
+			<td>Long / Short Ratio:&nbsp;&nbsp;<br><br></td> 
+			<td valign=top><input name="dateLS" type="text" maxlength="512" id="dateLS" class="searchField" value="Input Date, e.g. 20170420" onfocus="if(this.value=='Input Date, e.g. 20170420'){this.value='';}" onblur="if(this.value==''){this.value='Input Date, e.g. 20170420';}"/>*&nbsp;<button onclick="displayLSRatio()">Show</button>&nbsp;&nbsp;</td>
+			<td valign=top><strong id="lsRatio"></strong></td>
+		</tr>
+		<tr valign=top>
+			<td>Get Close Prices:&nbsp;&nbsp;<br><br></td>
+			<td valign=top><input name="closeDate" type="text" maxlength="512" id="closeDate" class="searchField" value="Input Date, e.g. 20170420" onfocus="if(this.value=='Input Date, e.g. 20170420'){this.value='';}" onblur="if(this.value==''){this.value='Input Date, e.g. 20170420';}"/>*&nbsp;<button onclick="displayClosePrice()">Show</button>&nbsp;&nbsp;</td>
+			<td valign=top><strong id="closePrice"></strong></td>
+	</table>
+	  <br><br><br>*  Dates need to be entered in format "YYYYMMDD". E.g. April 27, 2017 is 20170427.
+  </div>
+
+
+  
+
+
+</body>
+
+</html>
