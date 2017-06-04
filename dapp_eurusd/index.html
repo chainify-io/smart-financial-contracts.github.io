@@ -13,7 +13,6 @@ function wait(ms){
   }
 }
 
-1424
 
 var myContractInstance;
 function initializeContract () {
@@ -198,7 +197,12 @@ function startApp() {
 </head>
 
 <body>
+Network Status: <strong id="networkStatus"></strong><br>
+Your Account Address: <strong id="yourAccountAddress"></strong><br>
 
+
+
+<strong> Smart Contract Status </strong>
 
 
 
@@ -218,6 +222,8 @@ function startApp() {
 		<h3> Early Prototype Interface </h3>
 	</td>
 </table></tr>
+
+
 
 	<button onclick="startApp()">Click here to initialize and update</button>
 	<strong id="nometamask" colour="red">ETHEREUM CONNECTION NOT ESTABLISHED YET (click the button on the left)</strong>
